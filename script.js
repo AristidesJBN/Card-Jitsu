@@ -2,7 +2,7 @@
     var vidasensei = 5
 
 function play(userChoice) {
-    const choices = ["agua", "fogo", "neve"];
+    const choices = ["água", "fogo", "neve"];
     const computerChoice = choices[Math.floor(Math.random() * 3)];
     
     let result;
@@ -10,9 +10,9 @@ function play(userChoice) {
     if (userChoice === computerChoice) {
       result = "Empate!";
     } else if (
-      (userChoice === "agua" && computerChoice === "fogo") ||
+      (userChoice === "água" && computerChoice === "fogo") ||
       (userChoice === "fogo" && computerChoice === "neve") ||
-      (userChoice === "neve" && computerChoice === "agua")
+      (userChoice === "neve" && computerChoice === "áqua")
     ) {
       vidasensei = vidasensei-1
       result = "Sensei possui " + vidasensei
